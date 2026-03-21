@@ -1,0 +1,80 @@
+/* BOTÓN REGRESAR (el tuyo) */
+.regresar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    background: linear-gradient(135deg, #7b4fa3, #9b6cd1);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+.regresar:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+    background: linear-gradient(135deg, #9b6cd1, #c79fff);
+}
+
+/* CARDS */
+.card-shadow {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.card-shadow:hover {
+    transform: translateY(-8px) scale(1.02);
+}
+
+/* HEADER GENERAL */
+.card-header {
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+}
+
+/* FOOTER */
+.card-footer {
+    background: #f8f9fa;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* BOTÓN */
+.btn-color {
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+/* COLORES PERSONALIZADOS */
+.azul .card-header {
+    background: linear-gradient(135deg, #007bff, #4dabf7);
+}
+.azul .btn-color {
+    background: #007bff;
+}
+
+.verde .card-header {
+    background: linear-gradient(135deg, #28a745, #5cd65c);
+}
+.verde .btn-color {
+    background: #28a745;
+}
+
+.amarillo .card-header {
+    background: linear-gradient(135deg, #ffc107, #ffe066);
+    color: black;
+}
+.amarillo .btn-color {
+    background: #ffc107;
+    color: black;
+}
