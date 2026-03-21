@@ -1,0 +1,37 @@
+/* About-me - Begin */
+.title-main {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    color: hsl(275, 88%, 30%);
+}
+
+.title-secondary {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-style: normal;
+    color: lab(53.38% 72.57 -26.7);
+}
+
+.title-section {
+  font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: normal;
+    color: #e44aa1;  
+}
+
+aside {
+    background-color: #efc6f2;
+    height: 100%;
+    padding-left:10%;
+}
+
+.photo-profile  {
+    padding-left: -20%;
+    height: 300px;
+    width: 275px; ;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
