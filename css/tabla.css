@@ -1,0 +1,20 @@
+.regresar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    background: linear-gradient(135deg, #7b4fa3, #9b6cd1);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+.regresar:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+    background: linear-gradient(135deg, #9b6cd1, #c79fff);
+}
