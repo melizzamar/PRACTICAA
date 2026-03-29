@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action="form.html" method="post">
+
+        <!--Nombre Completo-->
+        <label for="txtnombre">Nombre Completo:</label>
+        <input type="text" id= "txtnombre" placeholder="Ej.Juan Perez">
+
+        <!--Numero de telefono-->
+        <label for="txttel">Num de telefono:</label>
+        <input type="tel" id="txttel" name="txttel" required 
+        pattern="[0-9]{10}"
+        placeholder="10 digitos (Ej 8123456789)">
+        <br><br>
+        
+        <!--Correo Electronico-->
+        <label for="txtnombre">Direccion de correo:</label>
+        <input type="email" name="textemail" placeholder="ejemplo@correo.com" required>
+        <br><br>
+        <input type="submit" value="Registrar">
+    
+        <!--Contraseña-->
+        <label for="txtnombre">Ingrese contraseña</label>
+        <input type="password" id="txtpass"name="txtpass" 
+        placeholder="Minimo 8 caracteres" required>
+        <br><br>
+
+        <label for="txtpass">Confirmar contraseña</label>
+        <input type="password" id="txtpass" name="txtpass" 
+        placeholder="Repite tu contraseña" required>
+
+
+        <!--Fecha de nacimiento-->
+         <label for="fecha-nac">Selecciona fecha de nacimiento</label>
+        <input type="date" id="fecha-nac" name="fecha-nac">
+
+        <input type="submit" value="Registrar">
+  
+        <!--Genero-->
+        <p>Genero</p>
+        <input type="radio" id="mujer" name="genero" value="mujer">
+        <label for="mujer">Mujer</label><br>
+
+        <input type="radio" id="otro" name="genero" value="otro">
+        <label for="otro">otro</label><br><br>
+
+        <!---Terminos y condiciones-->
+        <input type="checkbox" id="terminos" name="terminos"required>
+        <label for="terminos">Acepto los terminos y condiciones</label><br><br>
+
+        <input type="submit" value="Registrar">
+    
+    </form>
+
+
+</body>
+</html>
